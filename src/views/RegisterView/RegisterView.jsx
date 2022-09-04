@@ -53,7 +53,7 @@ export default function RegisterView() {
       });
       dispatch(authAction(returnedUser));
     } catch (error) {
-      toast.error('Wrong e-mail or password');
+      
     }
   };
 
